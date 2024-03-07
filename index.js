@@ -12,7 +12,7 @@ function del()
 
 function display(txt)
 {
-    os.value=txt+os.value;
+    os.value=os.value+txt;
     console.log(os.value);
 }
 
